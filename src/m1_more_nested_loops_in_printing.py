@@ -76,7 +76,7 @@ def triangle_right_justified(r):
     # -------------------------------------------------------------------------
     for j in range(r):
         for k in range(r-j-1):
-            print('x',end='')
+            print(' ',end='')
         for i in range(j+1):
             print(i+1,end='')
         print()
